@@ -45,5 +45,8 @@ This project simulates how real enterprises maintain **security, compliance, and
     │       Email Notification       │
     └────────────────────────────────┘
 
-    
+Governance Layer (Subscription Level)
+- Azure Policy (Region Restriction)
+- Mandatory Tags Enforcement
+- Resource Locks (Production Protection)  
 
