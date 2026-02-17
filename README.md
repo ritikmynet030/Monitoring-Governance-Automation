@@ -2,12 +2,7 @@
 Azure Monitoring, Alerting &amp; Policy Enforcement for Enterprise Resources
 
 
-# 🚀 Real Project #3 — Monitoring & Governance Automation
-
----
-
-## 📌 Project Name
-**Azure Monitoring, Alerting & Policy Enforcement for Enterprise Resources**
+# 🚀 Real Project #3 — **Azure Monitoring, Alerting & Policy Enforcement for Enterprise Resources**
 
 ---
 
