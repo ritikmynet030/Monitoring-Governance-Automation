@@ -111,3 +111,12 @@ This architecture reflects how **enterprise cloud governance teams** manage Azur
 
 ---
 
+## 👨‍💻 Author
+
+**Ritik Raj**  
+Azure Administrator | Cloud Enthusiast  
+Hands-on AZ-104 Practice Labs
+
+---
+
+⭐ If you find this repository helpful, feel free to star it!
