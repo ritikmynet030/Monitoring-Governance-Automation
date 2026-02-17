@@ -1,3 +1,7 @@
+## 🛠 Step-by-Step Implementation
+
+---
+
 ## 🔹 STEP 1 — Create Resource Group
 
 Create a resource group:
