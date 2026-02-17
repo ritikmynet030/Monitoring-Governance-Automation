@@ -70,6 +70,12 @@ VM → vm-windows-monitor → Insights → Enable
 
 Select the same workspace: law-enterprise-monitor
 
+📸 Screenshot:  
+![linux metrics](linux-test-vm-metrics.png)
+
+📸 Screenshot:  
+![Win metrics](win-test-vm-metrics.png)
+
 ---
 
 ## 🔹 STEP 7 — Create CPU Alert Rule
@@ -120,6 +126,11 @@ stress --cpu 2 --timeout 300
 
 CPU usage increases → Alert triggers.
 
+📸 Screenshot:  
+![CPU Utilizes](alert_notification-cpu-utilizes.png)
+
+
+
 ### Windows VM CPU Test
 
 RDP into Windows VM.
@@ -140,3 +151,8 @@ After 3–5 minutes verify:
 ✅ Alert visible in:
 
 Azure Monitor → Alerts → Fired Alerts
+
+📸 Screenshot:  
+![Email alerting](alerting-mail.png)
+
+![Email alerting](alerting-mail-2.png)
