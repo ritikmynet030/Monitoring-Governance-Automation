@@ -127,7 +127,7 @@ stress --cpu 2 --timeout 300
 CPU usage increases → Alert triggers.
 
 📸 Screenshot:  
-![CPU Utilizes](alert_notification-cpu-utilizes.png)
+![CPU Utilizes](alert-notification-cpu-utilizes.png)
 
 
 
