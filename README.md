@@ -29,3 +29,21 @@ This project simulates how real enterprises maintain **security, compliance, and
 
 ## 🏗️ Architecture (Concept)
 
+            Azure Subscription
+                    │
+    ┌────────────────────────────────┐
+    │        Resource Group          │
+    │                                │
+    │   Production VM (Linux/Win)    │
+    │            │                   │
+    │   Diagnostic Settings          │
+    │            │                   │
+    │     Log Analytics Workspace    │
+    │            │                   │
+    │      Azure Monitor Alerts      │
+    │            │                   │
+    │       Email Notification       │
+    └────────────────────────────────┘
+
+    
+
