@@ -1,4 +1,4 @@
-## ✅ STEP 1 — Create Resource Group
+## 🔹 STEP 1 — Create Resource Group
 
 Create a resource group:
 
@@ -9,7 +9,7 @@ Create a resource group:
 
 ---
 
-## ✅ STEP 2 — Create Log Analytics Workspace
+## 🔹 STEP 2 — Create Log Analytics Workspace
 
 1. Search **Log Analytics Workspace** in Azure Portal.
 2. Click **Create**.
@@ -22,7 +22,7 @@ Create a resource group:
 
 ---
 
-## ✅ STEP 3 — Deploy Ubuntu VM
+## 🔹 STEP 3 — Deploy Ubuntu VM
 
 Create a Linux virtual machine.
 
@@ -36,7 +36,7 @@ Create a Linux virtual machine.
 
 ---
 
-## ✅ STEP 4 — Deploy Windows VM
+## 🔹 STEP 4 — Deploy Windows VM
 
 Create a Windows virtual machine.
 
@@ -50,7 +50,7 @@ Create a Windows virtual machine.
 
 ---
 
-## ✅ STEP 5 — Enable Monitoring on Ubuntu VM
+## 🔹 STEP 5 — Enable Monitoring on Ubuntu VM
 
 Navigate to:
 VM → vm-ubuntu-monitor → Insights → Enable
@@ -59,7 +59,7 @@ Select: Azure installs monitoring agent automatically.
 
 ---
 
-## ✅ STEP 6 — Enable Monitoring on Windows VM
+## 🔹 STEP 6 — Enable Monitoring on Windows VM
 
 Navigate to:
 VM → vm-windows-monitor → Insights → Enable
@@ -68,7 +68,7 @@ Select the same workspace: law-enterprise-monitor
 
 ---
 
-## ✅ STEP 7 — Create CPU Alert Rule
+## 🔹 STEP 7 — Create CPU Alert Rule
 
 Go to:
 Azure Monitor → Alerts → Create → Alert Rule
@@ -103,9 +103,9 @@ Create new Action Group:
 
 ---
 
-## ✅ STEP 8 — Test Alert (IMPORTANT)
+## 🔹 STEP 8 — Test Alert (IMPORTANT)
 
-### 🔹 Linux VM CPU Test
+### Linux VM CPU Test
 
 Connect using SSH:
 
@@ -116,7 +116,7 @@ stress --cpu 2 --timeout 300
 
 CPU usage increases → Alert triggers.
 
-### 🔹 Windows VM CPU Test
+### Windows VM CPU Test
 
 RDP into Windows VM.
 Open Task Manager → Performance.
@@ -128,7 +128,7 @@ CPU usage increases.
 
 ---
 
-## ✅ STEP 9 — Confirm Alerts
+## 🔹 STEP 9 — Confirm Alerts
 
 After 3–5 minutes verify:
 
