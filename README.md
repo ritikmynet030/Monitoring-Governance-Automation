@@ -99,7 +99,7 @@ This architecture reflects how **enterprise cloud governance teams** manage Azur
 
 ---
 
-## 💼 Skills Demonstrated (Interview Ready)
+## 💼 Skills Demonstrated
 
 - Azure Governance Design  
 - Monitoring Architecture  
